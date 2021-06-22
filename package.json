@@ -6,7 +6,7 @@
   "homepage": "https://github.com/twasileva/goit-js-hw-09-gallery",
   "scripts": {
     "dev": "parcel *.html",
-    "build": "parcel build *.html --public-url /goit-js-hw-09-gallery/"
+    "build": "parcel build *.html --public-url /goit-js-hw-09-gallery"
   },
   "repository": {
     "type": "git",
