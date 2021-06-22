@@ -50,11 +50,11 @@ function onGalleryImageClick(e) {
   const originalSizeImage = e.target.dataset.source
   const descriptionImage = e.target.alt
 
-  onAddClassModal(originalSizeImage, descriptionImage)
+  onOpenModal(originalSizeImage, descriptionImage)
 
 }
 
-function onAddClassModal(sizeImage, description) {
+function onOpenModal(sizeImage, description) {
   window.addEventListener('keydown', onEscCloseModalClick)
   isModal.classList.add('is-open')
   isModalImage.src = sizeImage
